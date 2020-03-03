@@ -6,7 +6,7 @@ const path = require('path');
 const indentWidthChar = '  ';
 const {
     cjsToes
-} = require('@antmove/utils');
+} = require('../../utils');
 /**
 * process wxs
 */

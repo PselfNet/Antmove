@@ -13,7 +13,7 @@ const {
     prettierCode,
     // processFnBodyHandleFn,
     getCbName
-} = require('@antmove/utils');
+} = require('../../../utils');
 
 
 module.exports = function (fileInfo, ctx, originCode, apis) {
