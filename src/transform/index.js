@@ -1,4 +1,4 @@
-const utils = require('@antmove/utils');
+const utils = require('../../packages/@antmove/utils');
 const fs = require("fs-extra");
 const path = require("path");
 const {

@@ -1,5 +1,5 @@
 const generateAxml = require('../../generate/generateAxml.js');
-const { precessRelativePathOfCode } = require('@antmove/utils');
+const { precessRelativePathOfCode } = require('../../../utils');
 const fs = require('fs-extra');
 
 module.exports = function (fileInfo, ctx, isComponent = false) {

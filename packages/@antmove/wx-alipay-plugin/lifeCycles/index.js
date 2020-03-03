@@ -41,7 +41,7 @@ const {
     reportError,
     getAppName,
     recordOptions
-} = require('@antmove/utils');
+} = require('../../utils');
 const { processAppJson } = require('../generate/generateRuntimeLogPage');
 const {
     report,
@@ -344,7 +344,7 @@ module.exports = {
                 };
                 date = report(date, reportData);
             } else if (fileInfo.deep > 0&&fileInfo.extname === '.json') {
-                const { transformPackage } =require('@antmove/utils');
+                const { transformPackage } =require('../../utils');
                 let pathInfo = fileInfo.path.split(projectParents)[1].substr(1);
                 let parent = fileInfo.parent;
                 let bool = false;

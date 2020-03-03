@@ -2,7 +2,7 @@ const Config = require('../config');
 let appJson = require('../config/jsonInfo/globalconfig');
 let pageJson = require('../config/jsonInfo/pageconfig');
 const windowConfigMap = {};
-const { transformStr } = require('@antmove/utils');
+const { transformStr } = require('../../utils');
 const path = require('path');
 const fs = require('fs-extra');
 

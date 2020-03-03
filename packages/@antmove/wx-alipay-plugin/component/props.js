@@ -6,7 +6,7 @@ const generic = require("./generic");
 const preProcessCustomComponent = require("./customComponent");
 const processButton = require("./processButton.js");
 const processDataSet = require("./processDataSet");
-const { externalForWxFn } = require("@antmove/utils");
+const { externalForWxFn } = require("../../utils");
 const Config = require('../config');
 
 module.exports = function (ast, fileInfo, renderAxml) {

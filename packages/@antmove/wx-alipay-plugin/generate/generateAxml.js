@@ -9,7 +9,7 @@ const config = require('../config');
 const {
     cjsToes,
     processMixTemplate
-} = require('@antmove/utils');
+} = require('../../utils');
 const wxsApp = require('./generateWxsDep');
 /**
 * process wxs

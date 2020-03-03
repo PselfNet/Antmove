@@ -15,7 +15,7 @@ const {
     // processFnBodyHandleFn,
     transSharePath,
     getCbName
-} = require('@antmove/utils');
+} = require('../../../utils');
 
 
 module.exports = function (fileInfo, ctx, originCode, apis) {

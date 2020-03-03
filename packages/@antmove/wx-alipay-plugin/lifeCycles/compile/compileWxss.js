@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const { prettierCode } = require('@antmove/utils');
+const { prettierCode } = require('../../..//utils');
 const generateAppCssStyle = require('../../generate/generateApp.css.js');
 const processClassNames = require('./processClassNames');
 const css = require('css');
