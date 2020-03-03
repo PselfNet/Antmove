@@ -378,8 +378,8 @@ module.exports = function (config={}) {
             }
            
             fs.writeFileSync(dataPath, dayastr);
-            console.log("即将打开日志页面...");
-            openBower(local, config);
+            // console.log("即将打开日志页面...");
+            // openBower(local, config);
         },
     
         findOpenAbility (repData, dataType="wx") {
